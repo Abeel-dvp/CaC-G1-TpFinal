@@ -9,7 +9,10 @@
   <link rel="stylesheet" href="css/estilos-propios.css">
   <link rel="shortcut icon" href="./img/codoacodo-min.png" type="image/x-icon">
   <title>Trabajo Integrador: Comprar tickets</title>
-  <style>
+    <!-- Añade este script para cargar el SDK de PayPal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=Aea1KL6c9xHA9rRKjlMQNuOnv6pYSmbnMS7u-9Fddo1hXUjr_MJuM2MrET2lQnQLeGmO38itEIZOAIR6&currency=USD"></script>
+
+    <style>
     .propia{
         display:block;
     }
@@ -55,6 +58,13 @@
         </div>
     </nav>
 </header>
+
+
+
+
+
+
+
 
 <main>
 
@@ -161,6 +171,14 @@
                         </div>
                     </div>
                 </form>
+                <!-- Modifica tu formulario para agregar el botón de PayPal -->
+                <form action="" id="formulario-pago">
+                    <!-- ... (tu formulario existente) ... -->
+
+                    <!-- Botón de PayPal -->
+                    <div id="paypal-button-container"></div>
+                </form>
+
             </div>
         </div>
     </section>
@@ -198,6 +216,42 @@
 <script src="js/comprar-tickets.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Tu código aquí
+        let totalPagoElement = document.getElementById("totalPago");
+
+        // Configura el botón de PayPal después de que el documento se haya cargado
+        paypal.Buttons({
+            createOrder: function(data, actions) {
+                // Accede al valor numérico del elemento totalPagoElement
+                let totalValue = parseFloat(totalPagoElement.innerText);
+
+                // Configura la transacción de PayPal
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: totalValue, // Precio total a pagar
+                            currency_code: 'USD'
+                        }
+                    }]
+                });
+            },
+            onApprove: function(data, actions) {
+                // Captura el pago cuando el usuario aprueba
+                return actions.order.capture().then(function(details) {
+                    // Aquí puedes realizar acciones adicionales después de la captura del pago
+                    alert('Pago completado. ID de transacción: ' + details.id);
+                });
+            }
+        }).render('#paypal-button-container');
+    });
+
+
+</script>
+
 
 </body>
 </html>

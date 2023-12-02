@@ -12,6 +12,16 @@
 	</properties>
 	<!--definir las dependencias que usa mi proyecto -->
 	<dependencies>
+		<!-- dependencia para implementar paypal -->
+		<dependency>
+			<groupId>com.paypal.sdk</groupId>
+			<artifactId>paypal-checkout-sdk</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+
+
+
 
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>

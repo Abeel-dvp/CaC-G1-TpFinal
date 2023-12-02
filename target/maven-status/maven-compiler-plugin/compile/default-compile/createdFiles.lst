@@ -1,0 +1,10 @@
+ar\com\integrador\db\AdministradorDeConexiones.class
+ar\com\integrador\controllers\FindAllOradorController.class
+ar\com\integrador\domain\Orador.class
+ar\com\integrador\controllers\LoginAdminController.class
+ar\com\integrador\controllers\DashboardOradorController.class
+ar\com\integrador\controllers\DeleteOradorController.class
+ar\com\integrador\dao\iOradorDAO.class
+ar\com\integrador\controllers\UpdateOradorController.class
+ar\com\integrador\dao\implement\OradorDAOMysqlImpl.class
+ar\com\integrador\controllers\CreateOradorController.class
