@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="./img/codoacodo-min.png" type="image/x-icon">
   <title>Trabajo Integrador: Comprar tickets</title>
     <!-- Añade este script para cargar el SDK de PayPal -->
-    <script src="https://www.paypal.com/sdk/js?client-id=Aea1KL6c9xHA9rRKjlMQNuOnv6pYSmbnMS7u-9Fddo1hXUjr_MJuM2MrET2lQnQLeGmO38itEIZOAIR6&currency=USD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Aea1KL6c9xHA9rRKjlMQNuOnv6pYSmbnMS7u-9Fddo1hXUjr_MJuM2MrET2lQnQLeGmO38itEIZOAIR6&currency=USD"  ></script>
 
     <style>
     .propia{
@@ -233,7 +233,7 @@
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: totalValue, // Precio total a pagar
+                            value: totalAPagar(), // Precio total a pagar
                             currency_code: 'USD'
                         }
                     }]
