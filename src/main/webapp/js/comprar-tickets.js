@@ -6,6 +6,7 @@ let descuentoEstudiante = 80;
 let descuentoTrainee    = 50;
 let descuentoJunior     = 15;
 
+
 // Elementos en variables
 let nombre            = document.getElementById("nombre");
 let divErrorNombre    = document.getElementById("mensajeErrorNombre");
@@ -32,7 +33,7 @@ const quitarClaseError = () => {
 }
 
 // Cálculo total a pagar
-const totalAPagar = () => { 
+const totalAPagar = () => {
 //function total_a_pagar() {
 
     // Ejecuto función para que quite todos los estilos de error en los campos que los tuvieran
