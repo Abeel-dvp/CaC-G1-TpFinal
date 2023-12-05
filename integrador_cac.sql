@@ -31,7 +31,7 @@ CREATE TABLE `oradores` (
   `id_orador` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `apellido` varchar(50) NOT NULL,
-  `mail` varchar(50) NOT NULL,
+  `mail` varchar(100) NOT NULL,
   `tema` varchar(255) NOT NULL,
   `fecha_alta` datetime NOT NULL DEFAULT current_timestamp(),
   `activo` char(2) NOT NULL

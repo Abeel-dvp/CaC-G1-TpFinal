@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context docBase="C:/Users/Fernando/Desktop/final_cac_java-master/src/main/webapp">
+<Context docBase="C:/Users/adria/Desktop/CaC-G1-TpFinal-1/src/main/webapp" path="/integrador_java">
   <Resources cacheMaxSize="10240">
-    <PreResources base="C:/Users/Fernando/Desktop/final_cac_java-master/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
-    <PostResources base="C:/Users/Fernando/.m2/repository/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.0.31.jar"/>
-    <PostResources base="C:/Users/Fernando/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.19.4.jar"/>
+    <PreResources base="C:/Users/adria/Desktop/CaC-G1-TpFinal-1/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/adria/.m2/repository/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.0.31.jar"/>
+    <PostResources base="C:/Users/adria/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.19.4.jar"/>
   </Resources>
 </Context>

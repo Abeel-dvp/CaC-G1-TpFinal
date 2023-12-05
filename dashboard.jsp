@@ -21,7 +21,6 @@
 			grid-template-areas: "header"
 		                             "main"
 		                             "footer";
-
 		}
 		header{
 			grid-area: header;
@@ -32,7 +31,6 @@
 		}
 		footer{
 			grid-area: footer;
-
 		}
 	</style>
 </head>
