@@ -1,6 +1,7 @@
 <%@page import="ar.com.integrador.domain.Orador"%>
 <%@page import="java.util.List"%>
 
+
 <!doctype html>
 <html lang="es">
 
@@ -36,7 +37,7 @@
 		                        <div class="row">
 		                            <div class="col-lg-8 offset-lg-6">
 		                                <h3>Conf Bs. As.</h3>
-		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
 		                                <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="comprar-tickets.html">Comprar tickets</a></p>
 		                            </div>
 		                        </div>
@@ -50,7 +51,7 @@
 		                        <div class="row">
 		                            <div class="col-lg-6 offset-lg-6">
 		                                <h3>Conf Bs. As.</h3>
-		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que estï¿½n creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
 		                                <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="comprar-tickets.html">Comprar tickets</a></p>
 		                            </div>
 		                        </div>
@@ -64,7 +65,7 @@
 		                        <div class="row">
 		                            <div class="col-lg-6 offset-lg-6">
 		                                <h3>Conf Bs. As.</h3>
-		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+		                                <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que estï¿½n creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
 		                                <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="comprar-tickets.html">Comprar tickets</a></p>
 		                            </div>
 		                        </div>
@@ -97,7 +98,8 @@
 		                                    <span class="badge bg-info">React</span>
 		                                </div>
 		                                <h5 class="card-title">Steve Jobs</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+		                                <p class="card-text">
+											Cofundador de Apple, lider visionario en tecnologia. Transformo la industria con productos emblematicos y un enfoque innovador. Su legado perdura, inspirando creatividad y cambio global en la era digital.</p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -110,7 +112,8 @@
 		                                    <span class="badge bg-info">React</span>
 		                                </div>
 		                                <h5 class="card-title">Bill Gates</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nostrum saepe et quaerat illo possimus provident laboriosam totam sunt magni recusandae eligendi optio earum quas ab omnis fuga molestiae corrupti.</p>
+		                                <p class="card-text">
+											Co-fundador de Microsoft, lider en tecnologia e innovacion. Su vision revoluciono la informatica, creando Windows y dejando un impacto global a traves de su fundacion filantropica. Gates, una figura influyente en la historia contemporanea. </p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -123,7 +126,7 @@
 		                                    <span class="badge bg-danger">Startups</span>
 		                                </div>
 		                                <h5 class="card-title">Ada Lovelace</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veniam eius excepturi sapiente eligendi quaerat soluta nihil iste vero sequi cum nam quibusdam quam voluptas consequuntur natus! Optio, perspiciatis velit.</p>
+		                                <p class="card-text">Matematica del siglo XIX, pionera en programacion junto a Babbage, conceptualizo el "programa" para la Maquina AnalÃ­tica. Su legado inspira mujeres en ciencia y tecnologia, trascendiendo barreras temporales.</p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -145,7 +148,7 @@
 		            <div class="col-md text-light bg-aside1">
 		                <h2>Bs As - Octubre</h2>
 		                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
-		                <a class="btn btn-outline-light" href="#">Conocé más</a>
+		                <a class="btn btn-outline-light" href="#">Conocenos</a>
 		            </div>
 		        </div>
 		    </section>
@@ -153,8 +156,8 @@
 		    <section class="container" id="form-orador">
 		        <div class="row justify-content-center">
 		            <div class="col-lg-8 col-xl-7">
-		                <h2 class="titulo-gral">Conviértete en un <span>orador</span></h2>
-		                <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+		                <h2 class="titulo-gral">Conviertete en un <span>orador</span></h2>
+		                <p class="text-center">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
 		                <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST">
 		                    <div class="row gx-2">
 		                        <div class="col-md mb-3">
@@ -169,11 +172,20 @@
 		                            <input type="email" class="form-control" name="mail" placeholder="Email" aria-label="Email" required>
 		                        </div>
 		                    </div>
+
+							<div class="row">
+								<div class="col mb-3">
+									<label for="fileInput" class="form-label">Selecciona una imagen:</label>
+									<input type="file" class="form-control" id="fileInput" name="imagen" accept="image/*" required>
+									<div id="imageImput" class="form-text mb-3">Selecciona una imagen para tu presentacion.</div>
+								</div>
+							</div>
+
 		                    <div class="row">
 		                        <div class="col mb-3">
 		                            <textarea class="form-control" name="tema" id="exampleFormControlTextarea1" rows="4"
-		                                placeholder="Sobre qué quieres hablar?" required></textarea>
-		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un título para tu charla.</div>
+		                                placeholder="Sobre que quieres hablar?" required></textarea>
+		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un titulo para tu charla.</div>
 		                            <div class="d-grid">
 		                                <button type="submit" class="btn btn-lg btn-form">Enviar</button>
 		                            </div>
@@ -193,7 +205,7 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Contáctanos</a>
+		                <a class="nav-link" href="#">Contactanos</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -202,7 +214,7 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>

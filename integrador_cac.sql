@@ -56,6 +56,8 @@ INSERT INTO `oradores` (`id_orador`, `nombre`, `apellido`, `mail`, `tema`, `fech
 --
 ALTER TABLE `oradores`
   ADD PRIMARY KEY (`id_orador`);
+  ADD COLUMN foto_url VARCHAR(255) NOT NULL DEFAULT 'https://media.istockphoto.com/id/1352945762/es/vector/no-hay-imagen-disponible-como-la-imagen-que-falta.jpg?s=612x612&w=0&k=20&c=rMpx4SXHJgc1wCRuKDHeqW1jJ7LM-bCHUVcFeGWKICI=';
+
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
