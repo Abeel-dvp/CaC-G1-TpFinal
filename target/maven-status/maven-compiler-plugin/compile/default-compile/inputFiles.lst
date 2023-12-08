@@ -1,0 +1,10 @@
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\DashboardOradorController.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\dao\iOradorDAO.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\FindAllOradorController.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\CreateOradorController.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\DeleteOradorController.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\dao\implement\OradorDAOMysqlImpl.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\UpdateOradorController.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\domain\Orador.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\db\AdministradorDeConexiones.java
+C:\Users\adria\Desktop\CaC-G1-TpFinal\src\main\java\ar\com\integrador\controllers\LoginAdminController.java
