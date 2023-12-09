@@ -37,8 +37,13 @@ public class FindAllOradorController  extends HttpServlet {
 		    	 e.printStackTrace(); //  muestra por consola el error 
 		       }
 		       req.setAttribute("listado", oradores);
+
 		      // este bloque de codigo lo vamos a usar en todos lados, redirecciona al index.jsp 
-		       getServletContext().getRequestDispatcher("/listado.jsp").forward(req, resp);
+			// Redirigir a listado.jsp
+			getServletContext().getRequestDispatcher("/listado.jsp").forward(req, resp);
+
+			// También redirigir a index.jsp
+			getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 			   //En resumen, la línea de código en cuestión redirige la solicitud actual 
 		       //a un archivo JSP llamado "index.jsp", lo que significa que el control 
 		       //se transferirá a ese archivo y se generará una respuesta basada 
@@ -47,7 +52,14 @@ public class FindAllOradorController  extends HttpServlet {
 		       //que sigue el patrón MVC.
 		
 		}
-	    @Override
+
+	// En tu servlet
+
+
+
+
+
+	@Override
 		protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 			doGet(req, resp);
 		}

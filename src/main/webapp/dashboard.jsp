@@ -66,7 +66,7 @@
 						<a class="nav-link" href="./index.jsp#lugar">El lugar y la fecha</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./index.jsp#form-orador">Conviértete en orador</a>
+						<a class="nav-link" href="./index.jsp#form-orador">Conviertete en orador</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -92,6 +92,7 @@
 					<th scope="col">Nombre</th>
 					<th scope="col">Apellido</th>
 					<th scope="col">Tema</th>
+					<th scope="col">Foto_URL</th>
 					<th scope="col">Editar/Eliminar/Contactar</th>
 				</tr>
 				</thead>
@@ -112,6 +113,7 @@
 					<td><%=unOrador.getNombre() %></td>
 					<td><%=unOrador.getApellido() %></td>
 					<td><%=unOrador.getTema() %></td>
+					<td><%=unOrador.getFotoUrl() %></td>
 					<td>
 						<a class="btn btn-info" role="button" href="<%=request.getContextPath()%>/UpdateOradorController?id=<%=unOrador.getId()%>">
 							Editar
@@ -168,7 +170,7 @@
 				<a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contáctanos</a>
+				<a class="nav-link" href="#">Contactanos</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Prensa</a>
@@ -177,7 +179,7 @@
 				<a class="nav-link" href="#">Conferencias</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+				<a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Privacidad</a>
