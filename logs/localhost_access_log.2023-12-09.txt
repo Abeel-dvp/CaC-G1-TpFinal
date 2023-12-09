@@ -109,3 +109,7 @@
 0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:34:27 -0300] "GET /integrador_java/index.jsp HTTP/1.1" 200 15982
 0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:34:30 -0300] "GET /integrador_java/FindAllOradorController HTTP/1.1" 200 10567
 0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:34:36 -0300] "GET /integrador_java/index.jsp HTTP/1.1" 200 15982
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:54:57 -0300] "GET /integrador_java/index.jsp HTTP/1.1" 200 15982
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:55:09 -0300] "GET /integrador_java/index.jsp HTTP/1.1" 200 15982
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:55:11 -0300] "GET /integrador_java/FindAllOradorController HTTP/1.1" 200 10567
+0:0:0:0:0:0:0:1 - - [09/Dec/2023:11:55:35 -0300] "GET /integrador_java/index.jsp HTTP/1.1" 200 15982
