@@ -143,62 +143,62 @@
 		    <section class="container mb-4 text-center" id="restoOradores">
 		       <a class="btn btn-outline-success" href="<%=request.getContextPath()%>/FindAllOradorController">Conoce al resto de los ORADORES</a>
 
-				<h4>Carrusel de oradores</h4>
+<%--				<h4>Carrusel de oradores</h4>--%>
 
 
 
-				<!-- Ahora, incluir el contenido de index.jsp -->
-				<%@include file="/listado.jsp" %>
+<%--				<!-- Ahora, incluir el contenido de index.jsp -->--%>
+<%--				<%@include file="/listado.jsp" %>--%>
 
-				<%
-//					List<Orador> listado = (List<Orador>) request.getAttribute("listado");
-//					System.out.println("LISTADO " + listado);
+<%--				<%--%>
+<%--//					List<Orador> listado = (List<Orador>) request.getAttribute("listado");--%>
+<%-- 					System.out.println("LISTADO " + listado);--%>
 
-					if (listado != null) {
-						System.out.println("Tamaño de la lista de oradores: " + listado.size());
-				%>
-
-
-				<!-- Resto del código del carrusel para oradores... -->
-				<div id="oradoresCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
-					<!-- Resto del código del carrusel... -->
-					<div class="carousel-inner">
-						<!-- ESTO SE REPITE TANTA CANDTIDAD DE VECES COMO ARTICULOS TENGA -->
+<%--					if (listado != null) {--%>
+<%--						System.out.println("Tamaño de la lista de oradores: " + listado.size());--%>
+<%--				%>--%>
 
 
-
-						<% for (Orador aOrador : listado) { %>
-						<div class="carousel-item">
-							<div class="card">
-								<img src="<%= aOrador.getFotoUrl() %>" class="card-img-top" alt="Foto del Orador">
-								<div class="card-body">
-									<h5 class="card-title"><%= aOrador.getNombre() + " " + aOrador.getApellido() %></h5>
-									<p class="card-text"><%= aOrador.getTema() %></p>
-								</div>
-							</div>
-						</div>
-						<% } %>
-					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#oradoresCarousel" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Anterior</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#oradoresCarousel" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Siguiente</span>
-					</button>
-				</div>
+<%--				<!-- Resto del código del carrusel para oradores... -->--%>
+<%--				<div id="oradoresCarousel" class="carousel slide mb-4" data-bs-ride="carousel">--%>
+<%--					<!-- Resto del código del carrusel... -->--%>
+<%--					<div class="carousel-inner">--%>
+<%--						<!-- ESTO SE REPITE TANTA CANDTIDAD DE VECES COMO ARTICULOS TENGA -->--%>
 
 
 
-				</div>
-				</div>
-				<%
-					} else {
-						System.out.println("La lista de oradores es nula.");
-					}
-				%>
-				</div>
+<%--						<% for (Orador aOrador : listado) { %>--%>
+<%--						<div class="carousel-item">--%>
+<%--							<div class="card">--%>
+<%--								<img src="<%= aOrador.getFotoUrl() %>" class="card-img-top" alt="Foto del Orador">--%>
+<%--								<div class="card-body">--%>
+<%--									<h5 class="card-title"><%= aOrador.getNombre() + " " + aOrador.getApellido() %></h5>--%>
+<%--									<p class="card-text"><%= aOrador.getTema() %></p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<% } %>--%>
+<%--					</div>--%>
+<%--					<button class="carousel-control-prev" type="button" data-bs-target="#oradoresCarousel" data-bs-slide="prev">--%>
+<%--						<span class="carousel-control-prev-icon" aria-hidden="true"></span>--%>
+<%--						<span class="visually-hidden">Anterior</span>--%>
+<%--					</button>--%>
+<%--					<button class="carousel-control-next" type="button" data-bs-target="#oradoresCarousel" data-bs-slide="next">--%>
+<%--						<span class="carousel-control-next-icon" aria-hidden="true"></span>--%>
+<%--						<span class="visually-hidden">Siguiente</span>--%>
+<%--					</button>--%>
+<%--				</div>--%>
+
+
+
+<%--				</div>--%>
+<%--				</div>--%>
+<%--				<%--%>
+<%--					} else {--%>
+<%--						System.out.println("La lista de oradores es nula.");--%>
+<%--					}--%>
+<%--				%>--%>
+<%--				</div>--%>
 
 			</section>
 		
