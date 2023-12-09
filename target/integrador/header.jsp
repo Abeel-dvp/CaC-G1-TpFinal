@@ -22,7 +22,7 @@
                         <a class="nav-link" href="#lugar">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#form-orador">Conviértete en orador</a>
+                        <a class="nav-link" href="#form-orador">Conviertete en orador</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>

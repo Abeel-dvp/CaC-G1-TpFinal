@@ -97,7 +97,7 @@
 		                                    <span class="badge bg-info">React</span>
 		                                </div>
 		                                <h5 class="card-title">Steve Jobs</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+		                                <p class="card-text">Cofundador de Apple, lider visionario en tecnologia. Transformo la industria con productos emblematicos y un enfoque innovador. Su legado perdura, inspirando creatividad y cambio global en la era digital.</p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -110,7 +110,7 @@
 		                                    <span class="badge bg-info">React</span>
 		                                </div>
 		                                <h5 class="card-title">Bill Gates</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nostrum saepe et quaerat illo possimus provident laboriosam totam sunt magni recusandae eligendi optio earum quas ab omnis fuga molestiae corrupti.</p>
+		                                <p class="card-text">Co-fundador de Microsoft, lider en tecnologia e innovacion. Su vision revoluciono la informatica, creando Windows y dejando un impacto global a traves de su fundacion filantropica. Gates, una figura influyente en la historia contemporanea.</p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -123,7 +123,9 @@
 		                                    <span class="badge bg-danger">Startups</span>
 		                                </div>
 		                                <h5 class="card-title">Ada Lovelace</h5>
-		                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veniam eius excepturi sapiente eligendi quaerat soluta nihil iste vero sequi cum nam quibusdam quam voluptas consequuntur natus! Optio, perspiciatis velit.</p>
+		                                <p class="card-text">Matematica del siglo XIX, pionera en programacion junto a Babbage, conceptualizo el "programa" para la Maquina Analitica. Su legado inspira mujeres en ciencia y tecnologia, trascendiendo barreras temporales.
+
+										</p>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -145,7 +147,7 @@
 		            <div class="col-md text-light bg-aside1">
 		                <h2>Bs As - Octubre</h2>
 		                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
-		                <a class="btn btn-outline-light" href="#">Conocé más</a>
+		                <a class="btn btn-outline-light" href="#">Conoce mas</a>
 		            </div>
 		        </div>
 		    </section>
@@ -153,8 +155,8 @@
 		    <section class="container" id="form-orador">
 		        <div class="row justify-content-center">
 		            <div class="col-lg-8 col-xl-7">
-		                <h2 class="titulo-gral">Conviértete en un <span>orador</span></h2>
-		                <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+		                <h2 class="titulo-gral">Conviertete en un <span>orador</span></h2>
+		                <p class="text-center">Anótate como orador para dar una charla ignite. Cuentanos de qué quieres hablar!</p>
 		                <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST">
 		                    <div class="row gx-2">
 		                        <div class="col-md mb-3">
@@ -193,7 +195,7 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Contáctanos</a>
+		                <a class="nav-link" href="#">Contactanos</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -202,7 +204,7 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>

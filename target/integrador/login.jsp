@@ -62,7 +62,7 @@
 		                        <a class="nav-link" href="./index.jsp#lugar">El lugar y la fecha</a>
 		                    </li>
 		                    <li class="nav-item">
-		                        <a class="nav-link" href="./index.jsp#form-orador">Conviértete en orador</a>
+		                        <a class="nav-link" href="./index.jsp#form-orador">Conviertete en orador</a>
 		                    </li>
 		                    <li class="nav-item">
 		                        <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -89,7 +89,7 @@
 		                            
 		                        </div>
 		                         <div class="col-8 mb-3 mb-4">
-		                           <input type="password" class="form-control" name="password" placeholder="Contraseña" aria-label="Password" required>
+		                           <input type="password" class="form-control" name="password" placeholder="Contraseï¿½a" aria-label="Password" required>
 		                         </div>
 		                    </div>
 		                    <div class="row justify-content-center">
@@ -113,7 +113,7 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Contáctanos</a>
+		                <a class="nav-link" href="#">Contactanos</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -122,7 +122,7 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>
