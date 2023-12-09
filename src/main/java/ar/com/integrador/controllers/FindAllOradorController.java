@@ -14,53 +14,29 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//un servelet es una clase que extiende de httpServlet
-//http://localhost:8080/integrador//FindAllOradorController
 @WebServlet("/FindAllOradorController")
-
-public class FindAllOradorController  extends HttpServlet {
-	// tienen metodos importantes como es el 
-		//doGet
-		//doPost
-		// version para la web 
-		// se escribe doGet + ctrl + espacio
-	    @Override
-		protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-			//interface = new class que implementa la interface
-		     iOradorDAO dao = new OradorDAOMysqlImpl();
-		     List<Orador> oradores = new ArrayList<>();
-				
-		       try {
-		    	 oradores = dao.findAll();
-		       } catch (Exception e) {
-		    	 // TODO Auto-generated catch block
-		    	 e.printStackTrace(); //  muestra por consola el error 
-		       }
-		       req.setAttribute("listado", oradores);
-
-		      // este bloque de codigo lo vamos a usar en todos lados, redirecciona al index.jsp 
-			// Redirigir a listado.jsp
-			getServletContext().getRequestDispatcher("/listado.jsp").forward(req, resp);
-
-			// También redirigir a index.jsp
-			getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
-			   //En resumen, la línea de código en cuestión redirige la solicitud actual 
-		       //a un archivo JSP llamado "index.jsp", lo que significa que el control 
-		       //se transferirá a ese archivo y se generará una respuesta basada 
-		       //en el contenido del JSP. Esto permite separar la lógica 
-		       //de presentación de la lógica de negocio en una aplicación web Java
-		       //que sigue el patrón MVC.
-		
-		}
-
-	// En tu servlet
-
-
-
-
+public class FindAllOradorController extends HttpServlet {
 
 	@Override
-		protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-			doGet(req, resp);
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		iOradorDAO dao = new OradorDAOMysqlImpl();
+		List<Orador> oradores = new ArrayList<>();
+
+		try {
+			oradores = dao.findAll();
+			req.setAttribute("listado", oradores);
+			// Redirigir a listado.jsp
+			getServletContext().getRequestDispatcher("/listado.jsp").forward(req, resp);
+		} catch (Exception e) {
+			// Manejo general de excepciones
+			req.setAttribute("error", "Ocurrió un error al procesar la solicitud.");
+			req.getRequestDispatcher("/error.jsp").forward(req, resp);
+			e.printStackTrace(); // Loguear la excepción
 		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		doGet(req, resp);
+	}
 }
