@@ -5,8 +5,14 @@
 <html lang="es">
 
 	<head>
+<<<<<<< HEAD
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
+=======
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+>>>>>>> originfabi2/main
 	
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	  <link rel="stylesheet" href="css/estilos-propios.css">
@@ -62,7 +68,11 @@
 		                        <a class="nav-link" href="./index.jsp#lugar">El lugar y la fecha</a>
 		                    </li>
 		                    <li class="nav-item">
-		                        <a class="nav-link" href="./index.jsp#form-orador">Conviértete en orador</a>
+<<<<<<< HEAD
+		                        <a class="nav-link" href="./index.jsp#form-orador">Conviertete en orador</a>
+=======
+		                        <a class="nav-link" href="./index.jsp#form-orador">Conviï¿½rtete en orador</a>
+>>>>>>> originfabi2/main
 		                    </li>
 		                    <li class="nav-item">
 		                        <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -88,6 +98,10 @@
 		                    <th scope="col">Nombre</th>
 		                    <th scope="col">Apellido</th>
 		                    <th scope="col">Tema</th>
+<<<<<<< HEAD
+							<th scope="col">Foto_URL</th>
+=======
+>>>>>>> originfabi2/main
 		                  </tr>
 		                </thead>
 		                 <% 
@@ -106,6 +120,10 @@
 		                    <td><%=unOrador.getNombre() %></td>
 		                    <td><%=unOrador.getApellido() %></td>
 		                    <td><%=unOrador.getTema() %></td>
+<<<<<<< HEAD
+							<td><%=unOrador.getFotoUrl() %></td>
+=======
+>>>>>>> originfabi2/main
 		                    <td><a class="btn btn-info" role="button" href="<%=request.getContextPath()%>/UpdateOradorController?id=<%=unOrador.getId()%>">
 							       Editar
 							    </a> | 
@@ -137,7 +155,7 @@
 			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			      </div>
 			      <div class="modal-body">
-			        ¿Confirma que desea eliminar? 
+			        ï¿½Confirma que desea eliminar? 
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
@@ -155,7 +173,11 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Contáctanos</a>
+<<<<<<< HEAD
+		                <a class="nav-link" href="#">Contactanos</a>
+=======
+		                <a class="nav-link" href="#">Contï¿½ctanos</a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -164,7 +186,11 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+<<<<<<< HEAD
+		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
+=======
+		                <a class="nav-link" href="#">Tï¿½rminos y <span>condiciones</span></a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>
@@ -182,5 +208,9 @@
 				document.getElementById('idOrador').value=id;
 			}
 	  </script>
+<<<<<<< HEAD
+=======
+		<script src="js/comprar-tickets.js"></script>
+>>>>>>> originfabi2/main
 	</body>
 </html>

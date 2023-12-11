@@ -1,0 +1,104 @@
+[33mcommit 28b8800972a82e3798c5016bb2ef4e0f184d3bca[m[33m ([m[1;31moriginfabi/main[m[33m)[m
+Merge: 42b6772 2c4932b
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Tue Dec 5 14:30:39 2023 -0300
+
+    Merge pull request #5 from Abeel-dvp/adrian2
+    
+    Adrian2
+
+[33mcommit 2c4932b394deb57d5e7ea92a2c3cb89150737ae6[m
+Author: Adrianl93 <laborde.adrian2012@gmail.com>
+Date:   Tue Dec 5 14:12:28 2023 -0300
+
+    paypal y resumen fixed
+
+[33mcommit b5d0e46180d211f1a573f6a64c7861f26f286c05[m
+Author: Adrianl93 <laborde.adrian2012@gmail.com>
+Date:   Tue Dec 5 11:24:06 2023 -0300
+
+    min fixes
+
+[33mcommit caf3e182d5d4f0a7887a1253fd4db7f452178676[m
+Author: Adrianl93 <laborde.adrian2012@gmail.com>
+Date:   Tue Dec 5 10:00:30 2023 -0300
+
+    min fixes
+
+[33mcommit 42b6772c4dfce8eb60485f3777e1abb62d9149e2[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 8057060 0fe22c0
+Author: Adrianl93 <105607840+Adrianl93@users.noreply.github.com>
+Date:   Tue Dec 5 09:10:12 2023 -0300
+
+    Merge pull request #4 from Abeel-dvp/FFb
+    
+    cxambios
+
+[33mcommit 0fe22c091420be9cdb062e4141f24c374cff5b97[m[33m ([m[1;31morigin/FFb[m[33m)[m
+Author: Fabiana Buchieri <141365085+FFabianaB@users.noreply.github.com>
+Date:   Mon Dec 4 22:26:30 2023 -0300
+
+    cxambios
+
+[33mcommit 8057060eaa637797512d4016958de309806e244f[m
+Merge: ac6fd7c 6373a8f
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Sun Dec 3 19:52:13 2023 -0300
+
+    Merge pull request #3 from Abeel-dvp/api-final
+    
+    Api final  Codo a Codo 4.0
+
+[33mcommit 6373a8f664a74a8dadf8c0b11b8cbfca91882fc0[m
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Sun Dec 3 19:51:04 2023 -0300
+
+    faltaban esos archivos.
+
+[33mcommit c20fe2a72fd65ee2088a82276a293af0defbbaed[m
+Merge: ac6fd7c 81a5315
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Sun Dec 3 19:49:09 2023 -0300
+
+    Merge pull request #2 from Abeel-dvp/Abeel-dvp-patch-api-final1
+    
+    first commit- app final
+
+[33mcommit 81a531541fc0e6896eeeb4dae77e19d7e2816080[m
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Sun Dec 3 19:48:16 2023 -0300
+
+    first commit- app final
+
+[33mcommit ac6fd7cfa17aad04c53c38a4399c928fca5a8968[m
+Merge: ddf4873 9c68ef5
+Author: Adrianl93 <105607840+Adrianl93@users.noreply.github.com>
+Date:   Sat Dec 2 09:29:06 2023 -0300
+
+    Merge pull request #1 from Abeel-dvp/adrian
+    
+    Adrian
+
+[33mcommit 9c68ef5b0e8232470f313694dbc6c84f7858a48e[m
+Author: Adrianl93 <laborde.adrian2012@gmail.com>
+Date:   Sat Dec 2 09:28:31 2023 -0300
+
+     pago con paypal habilitado
+
+[33mcommit dd4d8cd95e88282bbf357c3aa9ce9e2bb07c134b[m
+Author: Adrianl93 <laborde.adrian2012@gmail.com>
+Date:   Sat Dec 2 09:01:52 2023 -0300
+
+     paypal integration
+
+[33mcommit ddf4873052248c4546eaf74e3b834f1ddf44be3e[m
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Thu Nov 30 21:24:49 2023 -0300
+
+    Create README.md
+
+[33mcommit 93ebf63ed0f845f9c30fc5d3fa988117e31d370b[m
+Author: Abeel-dvp <127243908+Abeel-dvp@users.noreply.github.com>
+Date:   Thu Nov 30 21:10:59 2023 -0300
+
+    First Commit -

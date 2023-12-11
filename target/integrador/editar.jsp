@@ -65,7 +65,11 @@
 		                        <a class="nav-link" href="./index.jsp#lugar">El lugar y la fecha</a>
 		                    </li>
 		                    <li class="nav-item">
+<<<<<<< HEAD
+		                        <a class="nav-link" href="./index.jsp#form-orador">Conviertete en orador</a>
+=======
 		                        <a class="nav-link" href="./index.jsp#form-orador">Conviértete en orador</a>
+>>>>>>> originfabi2/main
 		                    </li>
 		                    <li class="nav-item">
 		                        <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -117,7 +121,11 @@
 		                                placeholder="<%=orador.getTema()%>" 
 		                                
 		                                required><%=orador.getTema()%> </textarea>
+<<<<<<< HEAD
+		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un titulo para tu charla.</div>
+=======
 		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un título para tu charla.</div>
+>>>>>>> originfabi2/main
 		                            <div class="d-grid">
 		                                <button type="submit" class="btn btn-lg btn-form">Modificar</button>
 		                            </div>
@@ -137,7 +145,11 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
+<<<<<<< HEAD
+		                <a class="nav-link" href="#">Contactanos</a>
+=======
 		                <a class="nav-link" href="#">Contáctanos</a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -146,7 +158,11 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
+<<<<<<< HEAD
+		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
+=======
 		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>
