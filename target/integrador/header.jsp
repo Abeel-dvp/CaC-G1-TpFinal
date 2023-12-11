@@ -34,4 +34,23 @@
             </div>
         </div>
     </nav>
+
+    <div class="mobile-menu d-lg-none">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
 </header>
+
+
+<style>
+    .btn-compra-tickets.green {
+        color: green;
+    }
+</style>
+
+
+<script>
+    var btnComprarTickets = document.querySelector('.btn-compra-tickets');
+    btnComprarTickets.classList.add('green');
+</script>
