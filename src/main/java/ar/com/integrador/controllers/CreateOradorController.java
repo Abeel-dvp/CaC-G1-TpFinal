@@ -24,7 +24,6 @@ public class CreateOradorController extends HttpServlet {
 		String mail = req.getParameter("mail");
 		String tema = req.getParameter("tema");
 		String activo = "S";
-		//String foto_url = req.getParameter("urlCloudinary"); // Nueva propiedad
 		String foto_url = req.getParameter("foto_url");
 
 		// Validaciones

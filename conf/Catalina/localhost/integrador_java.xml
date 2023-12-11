@@ -6,7 +6,10 @@
     <PostResources base="C:/Users/adria/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.19.4.jar"/>
     <PostResources base="C:/Users/adria/AppData/Roaming/JetBrains/IntelliJIdea2023.2/javascript/extLibs/http_cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_css_bootstrap.css" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/http_cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_css_bootstrap.css"/>
     <PostResources base="C:/Users/adria/AppData/Roaming/JetBrains/IntelliJIdea2023.2/javascript/extLibs/http_cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.js" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/http_cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.js"/>
+<<<<<<< HEAD
     <PostResources base="C:/Users/adria/Desktop/CaC-G1-TpFinal-1/target/integrador/WEB-INF/lib/cloudinary-http44-1.36.0-javadoc.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/cloudinary-http44-1.36.0-javadoc.jar"/>
     <PostResources base="C:/Users/adria/Desktop/CaC-G1-TpFinal-1/target/integrador/WEB-INF/lib/cloudinary-core-1.30.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/cloudinary-core-1.30.0.jar"/>
+=======
+>>>>>>> originfabi2/main
   </Resources>
 </Context>

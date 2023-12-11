@@ -5,7 +5,11 @@
 <html lang="es">
 
 	<head>
+<<<<<<< HEAD
 	  <meta charset="utf-8">
+=======
+	  <meta charset="UTF-8">
+>>>>>>> originfabi2/main
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -89,7 +93,11 @@
 		                            
 		                        </div>
 		                         <div class="col-8 mb-3 mb-4">
+<<<<<<< HEAD
 		                           <input type="password" class="form-control" name="password" placeholder="Contrase�a" aria-label="Password" required>
+=======
+		                           <input type="password" class="form-control" name="password" placeholder="password" aria-label="Password" required>
+>>>>>>> originfabi2/main
 		                         </div>
 		                    </div>
 		                    <div class="row justify-content-center">
@@ -113,7 +121,11 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
+<<<<<<< HEAD
 		                <a class="nav-link" href="#">Contactanos</a>
+=======
+		                <a class="nav-link" href="#">Cont�ctanos</a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -122,7 +134,11 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
+<<<<<<< HEAD
 		                <a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
+=======
+		                <a class="nav-link" href="#">T�rminos y <span>condiciones</span></a>
+>>>>>>> originfabi2/main
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>

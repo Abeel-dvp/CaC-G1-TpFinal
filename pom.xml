@@ -32,9 +32,6 @@
 			<version>1.36.0</version>
 		</dependency>
 
-
-
-
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
