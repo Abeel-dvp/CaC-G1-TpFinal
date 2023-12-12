@@ -2,22 +2,14 @@
 <%@page import="java.util.List"%>
 
 
-
-
 <!doctype html>
 <html lang="es">
 
 <head>
-
-
-
-	<meta charset="utf-8">
-
 	<script src="https://kit.fontawesome.com/06cd062310.js" crossorigin="anonymous"></script>
 
 
-
-
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -86,12 +78,10 @@
 						<a class="nav-link" href="login.jsp">LogIn</a>
 					</li>
 				</ul>
-
 				<button class="switch" id="switch">
 					<span><i class="fas fa-sun"></i></span>
 					<span><i class="fas fa-moon"></i></span>
 				</button>
-
 
 			</div>
 		</div>
@@ -100,23 +90,18 @@
 
 <main>
 	<section class="container mt-5 mb-4" id="restoOradores">
-
 		<h1 class="titulo-gral normal">*-*-*PANEL DE ADMINISTRACION*-*-*</h1>
-
 
 
 		<div class="row">
 			<table class="table">
 				<thead>
 				<tr>
-
-					<th scope="col">#</th>
-					<th scope="col">Nombre</th>
-					<th scope="col">Apellido</th>
-					<th scope="col">Tema</th>
-					<th scope="col">Foto_URL</th>
-					<th scope="col">Editar/Eliminar/Contactar</th>
-
+					<th class="normal" scope="col">#</th>
+					<th class="normal" scope="col">Nombre</th>
+					<th class="normal" scope="col">Apellido</th>
+					<th class="normal" scope="col">Tema</th>
+					<th class="normal" scope="col">Editar/Eliminar/Contactar</th>
 				</tr>
 				</thead>
 				<%
@@ -132,14 +117,11 @@
 					for( Orador  unOrador : listado) {
 				%>
 				<tr>
-
 					<th class="normal" scope="row"><%=unOrador.getId()%></th>
-					<td class="normal" ><%=unOrador.getNombre() %></td>
+					<td class="normal"><%=unOrador.getNombre() %></td>
 					<td class="normal"><%=unOrador.getApellido() %></td>
 					<td class="normal"><%=unOrador.getTema() %></td>
-					<td class="normal"><%=unOrador.getFotoUrl() %></td>
 					<td class="normal">
-
 						<a class="btn btn-info" role="button" href="<%=request.getContextPath()%>/UpdateOradorController?id=<%=unOrador.getId()%>">
 							Editar
 						</a>
@@ -204,9 +186,7 @@
 				<a class="nav-link" href="#">Conferencias</a>
 			</li>
 			<li class="nav-item">
-
-				<a class="nav-link" href="#">Terminos y <span>condiciones</span></a>
-
+				<a class="nav-link" href="#">Términos y <span>condiciones</span></a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Privacidad</a>
@@ -217,18 +197,14 @@
 		</ul>
 	</div>
 </footer>
-<script src="https://kit.fontawesome.com/06cd062310.js" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script>
 	function setOradorId(id) {
 		document.getElementById('idOrador').value=id;
 	}
 </script>
-
-
-
-
+<script src="https://kit.fontawesome.com/06cd062310.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

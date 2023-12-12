@@ -28,18 +28,13 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `oradores` (
-
-  `id_orador` int(11) NOT NULL AUTO_INCREMENT,
-
-
+  `id_orador` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `apellido` varchar(50) NOT NULL,
   `mail` varchar(100) NOT NULL,
   `tema` varchar(255) NOT NULL,
   `fecha_alta` datetime NOT NULL DEFAULT current_timestamp(),
-  `activo` char(2) NOT NULL,
-  `foto_url` VARCHAR(255) NOT NULL DEFAULT 'https://media.istockphoto.com/id/1352945762/es/vector/no-hay-imagen-disponible-como-la-imagen-que-falta.jpg?s=612x612&w=0&k=20&c=rMpx4SXHJgc1wCRuKDHeqW1jJ7LM-bCHUVcFeGWKICI='
-
+  `activo` char(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -60,20 +55,17 @@ INSERT INTO `oradores` (`id_orador`, `nombre`, `apellido`, `mail`, `tema`, `fech
 -- Indices de la tabla `oradores`
 --
 ALTER TABLE `oradores`
+  ADD PRIMARY KEY (`id_orador`);
 
-  ADD PRIMARY KEY (`id_orador`),
-  ADD COLUMN foto_url VARCHAR(255) NOT NULL DEFAULT 'https://media.istockphoto.com/id/1352945762/es/vector/no-hay-imagen-disponible-como-la-imagen-que-falta.jpg?s=612x612&w=0&k=20&c=rMpx4SXHJgc1wCRuKDHeqW1jJ7LM-bCHUVcFeGWKICI=',
-  MODIFY id_orador BIGINT;
-
-
-
-
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
 
 --
 -- AUTO_INCREMENT de la tabla `oradores`
 --
-
-
+ALTER TABLE `oradores`
+  MODIFY `id_orador` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

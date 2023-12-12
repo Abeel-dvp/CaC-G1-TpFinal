@@ -22,9 +22,7 @@
                         <a class="nav-link" href="#lugar">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-
                         <a class="nav-link" href="#form-orador">Conviertete en orador</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -33,12 +31,13 @@
                         <a class="nav-link" href="login.jsp">LogIn</a>
                     </li>
                 </ul>
-
+                <button class="switch" id="switch">
+                    <span><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </button>
             </div>
         </div>
     </nav>
 </header>
 <script src="https://kit.fontawesome.com/06cd062310.js" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
-
-
