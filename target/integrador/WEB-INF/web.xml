@@ -6,14 +6,10 @@
   <display-name>Codo a Codo - Java Integrador</display-name>
   <welcome-file-list>
   	<welcome-file>index.jsp</welcome-file>
-<<<<<<< HEAD
-  </welcome-file-list>  
-=======
   </welcome-file-list>
     <jsp-config>
         <jsp-property-group>
             <page-encoding>UTF-8</page-encoding>
         </jsp-property-group>
     </jsp-config>
->>>>>>> originfabi2/main
  </web-app>

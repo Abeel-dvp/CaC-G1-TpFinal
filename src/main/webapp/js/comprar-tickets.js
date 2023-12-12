@@ -120,23 +120,12 @@ const totalAPagar = () => {
 }
 
 // Botón Resumen recibe un escuchador y la funcion del cálculo
-<<<<<<< HEAD
-btnResumen.addEventListener('click', totalAPagar);
-
-// Función para el botón Borrar para que borre el valor
-const resetTotalAPagar = () => {
-=======
     btnResumen.addEventListener('click', totalAPagar);
 
 // Función para el botón Borrar para que borre el valor
 const resetTotalAPagar = () => {s
->>>>>>> originfabi2/main
 //function reset_total_a_pagar() {
     quitarClaseError();
     totalPago.innerHTML = "";
 }
-<<<<<<< HEAD
-btnBorrar.addEventListener('click', resetTotalAPagar);
-=======
     btnBorrar.addEventListener('click', resetTotalAPagar);
->>>>>>> originfabi2/main

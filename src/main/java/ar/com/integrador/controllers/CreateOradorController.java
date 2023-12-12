@@ -14,56 +14,66 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 @WebServlet("/CreateOradorController")
 public class CreateOradorController extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// Capturo los parámetros que vienen en el request enviado por el formulario
-		String nombre = req.getParameter("nombre");
-		String apellido = req.getParameter("apellido");
+		//capturo los parametros que viene en el request enviado por el form
+		String nombre= req.getParameter("nombre");//name de input
+		String apellido = req.getParameter("apellido");//name de input
 		String mail = req.getParameter("mail");
 		String tema = req.getParameter("tema");
-		String activo = "S";
-		String foto_url = req.getParameter("foto_url");
-
-		// Validaciones
+		String activo = "S";//name de input
+		
+		
+		//validaciones!
 		List<String> errores = new ArrayList<>();
-		if (nombre == null || "".equals(nombre)) {
+		if(nombre == null || "".equals(nombre)) {
 			errores.add("Nombre vacío");
 		}
-		if (apellido == null || "".equals(apellido)) {
+		if(apellido== null || "".equals(apellido)) {
 			errores.add("Apellido vacío");
 		}
-		if (mail == null || "".equals(mail)) {
+		if(mail== null || "".equals(mail)) {
 			errores.add("Mail vacío");
 		}
-		if (tema == null || "".equals(tema)) {
+		if(tema== null || "".equals(tema)) {
 			errores.add("Tema vacío");
 		}
-
-		if (!errores.isEmpty()) {
+		
+		if(!errores.isEmpty()) {
 			req.setAttribute("errors", errores);
-			// Vuelvo a la JSP con la lista de errores cargada
+			//vuelvo a la jsp con la lista de errores cargadas 
 			getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 			return;
 		}
 
-		// Instancio la implementación de la interfaz DAO
+		
+		
+		
+		//interface = new class que implementa la interface
 		iOradorDAO dao = new OradorDAOMysqlImpl();
-
-		// Creo el objeto Orador con la nueva propiedad
-		Orador orador = new Orador(null, nombre, apellido, mail, tema, activo, foto_url);
-
+		
+		// como llego a la base de datos si quiero pedir datos de un orador?
+		
+		Orador orador;
+       
+		orador = new Orador(nombre,apellido,mail,tema,activo);
+		// si no usamos try catch podemos arriba poner throws Exception
 		try {
-			// Llamo al método create del DAO
-			dao.create(orador);
-			req.setAttribute("success", List.of("Alta de Orador exitosa"));
-		} catch (Exception e) {
-			// Si falla, imprimo la excepción
+			 dao.create(orador); // cuando se crea el orador se le setea el id que se levanta de la base 
+			 req.setAttribute("success", List.of("Alta de Orador exitosa"));
+		}catch (Exception e) {
+			//si falla volver al nuevo.jsp
 			e.printStackTrace();
-		}
-
-		// Redirecciono a la página de visualización de todos los oradores
+			
+		 }
+		//ahora redirect!!!!
 		getServletContext().getRequestDispatcher("/FindAllOradorController").forward(req, resp);
+		
+		
+		
+		
 	}
 }
